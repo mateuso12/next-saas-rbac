@@ -12,5 +12,10 @@
   "packageManager": "pnpm@9.0.0",
   "engines": {
     "node": ">=18"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@saas/eslint-config/library.cjs"
+    ]
   }
 }
